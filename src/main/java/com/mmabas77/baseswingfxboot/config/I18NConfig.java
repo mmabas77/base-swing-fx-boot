@@ -13,6 +13,7 @@ public class I18NConfig {
                 new ReloadableResourceBundleMessageSource();
 
         resourceBundleMessageSource.setBasename("classpath:i18n/messages");
+        resourceBundleMessageSource.setDefaultEncoding("UTF-8");
         resourceBundleMessageSource.setCacheSeconds(1800);
 
         return resourceBundleMessageSource;
