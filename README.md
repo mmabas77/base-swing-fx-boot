@@ -16,7 +16,7 @@ This is a base project uses spring boot with swing & javafx
   
 to your own in (pom.xml)
 
-4-If you want to create custom jre edit (create-custome-jre.sh)  
+4-If you want to create custom jre edit (create-custom-jre.sh)  
 and set `base-swing-fx-boot-0.0.1-SNAPSHOT.jar`
 to your own `<artifactId>-<version>.jar`
 
